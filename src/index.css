@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --secondary-clr: #747474;
+  --primary-clr: #b42426;
+  --primary-font-clr: #42505c;
+  --secondary-font-clr: #404040;
+  --letter-spacing: 0.25px;
+  --line-height: 28px;
+  --heading-fs: 54px;
+  --secondary-bg-clr: #f9faff;
+  --primary-bg: #fff8f8;
+}

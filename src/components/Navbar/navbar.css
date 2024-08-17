@@ -1,0 +1,52 @@
+@import url(../../index.css);
+.navbar {
+  height: 150px;
+  display: flex;
+  background: rgb(0, 0, 1);
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.appbar {
+  height: 100px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  background: #fff !important;
+  color: #333 !important;
+  justify-content: space-evenly !important;
+}
+.social {
+  color: white !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 13px 30px;
+  gap: 10px;
+}
+.nav-links {
+  font-family: "Bebas Neue", sans-serif !important;
+  text-decoration: none !important;
+  color: #333 !important;
+  font-size: 24px !important;
+}
+.nav-links:hover {
+  color: var(--primary-clr) !important;
+}
+.menu-item {
+  background-color: transparent !important;
+}
+.css-1t6c9ts {
+  justify-content: center !important;
+}
+.nav-btn {
+  color: var(--primary-clr) !important;
+  border: 1px solid var(--primary-clr) !important;
+  height: 50px !important;
+  transition: ease-in-out 500ms !important;
+}
+.nav-btn:hover {
+  color: #fff !important;
+  background-color: var(--primary-clr) !important;
+}

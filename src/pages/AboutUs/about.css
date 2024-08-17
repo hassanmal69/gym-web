@@ -1,0 +1,65 @@
+@import url(../../index.css);
+.about-section {
+  background-color: var(--secondary-bg-clr);
+  width: 60%;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.aboutus-title {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  font-family: "Bebas Neue", sans-serif !important;
+  color: var(--primary-clr) !important;
+  letter-spacing: 2px !important;
+}
+.aboutus-info {
+  font-size: 18px !important;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif !important;
+  text-align: justify;
+  color: var(--secondary-clr) !important;
+}
+@media only screen and (max-width: 600px) {
+  .about-section {
+    width: 100%;
+    padding: 20px;
+  }
+  .about-title{
+    font-size: 32px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-section {
+    width: 90%;
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .about-section {
+    width: 60%;
+    padding: 50px;
+  }
+}

@@ -1,0 +1,81 @@
+@import url(../../index.css);
+
+.heading-container {
+  width: 100%;
+}
+.heading-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-container-2 h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+.main-sub-heading {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.rotate-left {
+  transform: rotate(270deg);
+}
+.rotate-right {
+  transform: rotate(90deg);
+}
+.arrow {
+  width: 35px;
+}
+span {
+  color: var(--primary-clr);
+  font-family: "Bebas Neue", sans-serif;
+}
+.bg-h1 {
+  /* background-image: url(../../assets/images/fitnessjourny.png); */
+  background-size: 700px 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 700px;
+  height: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .arrow {
+    width: 20px;
+  }
+  .heading-container-2 h1 {
+    font-size: 22px;
+  }
+  .heading-container-2 {
+    margin: 10px 0;
+  }
+  .bg-h1 {
+    background-size: 80% 70px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}

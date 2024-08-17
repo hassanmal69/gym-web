@@ -1,0 +1,71 @@
+@import url(../../index.css);
+.login-container {
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: var(--primary-bg);
+}
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-heading {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif !important;
+  color: var(--primary-clr);
+}
+.login-input-container .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 30px !important;
+}
+.login-header {
+  margin: 20px 0;
+}
+.login-btn {
+  color: #fff !important;
+  background-color: var(--primary-clr) !important;
+  height: 60px !important;
+  width: 100% !important;
+}
+.login-btn:hover {
+  border: 1px solid var(--primary-clr) !important;
+  background-color: transparent !important;
+  color: var(--primary-clr) !important;
+}
+.login-input {
+  background-color: #fff !important;
+}
+@media only screen and (max-width: 600px) {
+  .login-container {
+    width: 100%;
+  }
+  .login-title{
+    font-size: 34px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .login-container{
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .login-container{
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .login-container{
+    width: 30%;
+  }
+}

@@ -1,0 +1,58 @@
+@import url(../../index.css);
+.membercard-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.li {
+  list-style: none;
+  color: #747474;
+  font-size: 18px;
+}
+.list-icon {
+  width: 15px;
+}
+.member-card {
+  text-align: center !important;
+  box-shadow: 0px !important;
+  border: 1px solid black !important;
+  border-radius: 15px !important;
+  background-color: #fff8f8 !important;
+}
+.member-image {
+  border-radius: 0px 0px 15px 15px !important;
+}
+.member-typography {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+.member-title{
+  font-size: 28px !important;
+}
+.fee-info {
+  width: 60%;
+  margin: 20px auto auto !important;
+}
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (min-width: 600px) {
+
+}
+
+/* @media only screen and (min-width: 768px) {
+}
+*/
+@media only screen and (min-width: 992px) {
+  .membercard-container{
+    gap: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .membercard-container{
+    gap: 20px;
+  }
+}

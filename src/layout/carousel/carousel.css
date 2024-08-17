@@ -1,0 +1,118 @@
+@import url(../../index.css);
+.owl-carousel .owl-item img {
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44);
+}
+.carousel-container {
+  width: 60%;
+  margin: auto;
+}
+.item {
+  margin: 0 5px;
+}
+/* .disabled {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  backdrop-filter: blur(5px) saturate(171%) !important  ;
+  -webkit-backdrop-filter: blur(5px) saturate(171%) !important;
+  background-color: rgba(17, 25, 40, 0.46) !important;
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44) !important;
+  -webkit-box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44) !important;
+  -moz-box-shadow: 1px 9px 5px -5px rgba(0, 0, 0, 0.44) !important;
+} */
+/* .partner-disabled {
+  top: 197%;
+}
+.payment-disabled {
+  top: 230%;
+} */
+/* .disabled-card-content {
+  display: flex !important;
+  height: 200px;
+  align-items: center !important;
+}
+.disabled-messgage {
+  color: var(--primary-clr);
+  letter-spacing: 2px !important;
+}
+.disabled-owl-theme {
+  z-index: 0 !important;
+}
+.disabled-owl-theme .owl-prev .owl-next {
+  display: none !important;
+} */
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    width: 100%;
+  }
+  .owl-carousel .owl-item img {
+    height: 300px;
+    display: block;
+    width: 330px !important;
+  }
+  .item {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .partner-disabled {
+    top: 235%;
+  }
+  .disabled {
+    width: 90%;
+    text-align: center;
+  }
+  .disabled-messgage {
+    font-size: 20px !important; 
+  }*/
+  .bg-h1 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .owl-carousel .owl-item img {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .owl-carousel .owl-item img {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .carousel-container {
+    width: 60%;
+    padding: 0;
+  }
+  .owl-carousel .owl-item img {
+    height: 300px;
+    width: 250px !important;
+  }
+  .item {
+    margin: 0 5px;
+    display: block;
+  }
+}

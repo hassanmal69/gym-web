@@ -1,0 +1,63 @@
+@import url(../../index.css);
+.table-container {
+  width: 60% !important;
+  margin: auto;
+}
+.done-img {
+  width: 20px;
+}
+.row-data {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--primary-clr);
+  letter-spacing: 1px !important;
+}
+.col {
+  background-color: var(--primary-bg);
+}
+.icons {
+  color: var(--primary-clr) !important;
+}
+.head-content {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: "Bebas Neue", sans-serif !important;
+  color: var(--primary-clr) !important;
+  letter-spacing: 2px !important;
+}
+.table-typography {
+  font-family: "Poppins", sans-serif !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-container {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .table-container {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .table-container {
+    width: 70% !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .table-container {
+    width: 60% !important;
+  }
+}

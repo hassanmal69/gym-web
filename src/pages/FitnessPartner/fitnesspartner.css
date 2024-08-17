@@ -1,0 +1,252 @@
+@import url(../../index.css);
+.page-hero-title span {
+  font-family: "Bebas Neue", sans-serif !important;
+}
+.fitness {
+  display: flex;
+  flex-direction: column;
+}
+.page-hero {
+  background-image: url(../../assets/images/hero-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page-btn {
+  color: #fff !important;
+  background-color: hsl(359, 67%, 42%, 0.5) !important;
+  height: 50px !important;
+  width: 150px !important;
+  margin-top: 20px !important;
+  transition: ease-in-out 500ms !important;
+}
+.page-btn:hover {
+  border: 1px solid var(--primary-clr) !important;
+  background-color: hsl(0, 0%, 100%, 0.2) !important;
+  color: var(--primary-clr) !important;
+}
+.fitnesscard-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.fitnesscard {
+  width: 320px;
+  box-shadow: 0px !important;
+  background: #fff8f8 !important;
+  padding: 15px !important;
+  height: 330px !important;
+}
+.tag-num {
+  width: 50px;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  box-shadow: none !important;
+}
+.fitness-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.partner-card-title {
+  font-family: "Bebas Neue", sans-serif !important;
+  font-size: 26px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.partner-card-body {
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  color: var(--secondary-clr);
+  font-weight: 600 !important;
+  margin-top: 10px !important;
+  word-wrap: normal;
+  word-spacing: 2px !important;
+}
+.partner-card-body span {
+  letter-spacing: 1px !important;
+}
+.partner-steps {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.before-line {
+  background-color: var(--primary-clr);
+  height: 7px;
+  width: 55%;
+  margin: 30px auto;
+}
+.step-card:nth-child(1) {
+  background-color: var(--primary-clr) !important;
+}
+.step-card {
+  background-color: #000 !important;
+  color: #fff !important;
+  height: 180px !important;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px !important;
+  width: 220px !important;
+  padding: 0 10px;
+}
+
+.step-content {
+  font-size: 16px !important;
+  font-family: "Bebas Neue", sans-serif !important;
+  text-align: center !important;
+}
+.registrationForm-section {
+  width: 55%;
+  margin: auto;
+  padding: 50px 0;
+  border-radius: 23px;
+  background-color: #fff8f8 !important;
+}
+.Reg-input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.registration-fields {
+  width: 410px !important;
+  outline: none !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 50px !important;
+  border: none !important;
+  outline: none !important;
+  background-color: #fff !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  font-weight: 500 !important;
+  color: #000 !important;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 10px !important;
+}
+
+.registration-fields:nth-child(10),
+.registration-fields:nth-child(3) {
+  width: 88% !important;
+}
+
+.fitness-submit-btn {
+  width: 88% !important;
+  height: 60px !important;
+  color: #fff !important;
+  background-color: var(--primary-clr) !important;
+  margin-top: 20px !important;
+  transition: ease-in-out 500ms !important;
+  border-radius: 10px !important;
+}
+#demo-simple-select {
+  height: 50px !important;
+  width: 100% !important;
+  background-color: #fff !important;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 10px !important;
+  line-height: 50px !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  color: #757575 !important;
+}
+.fitness-submit-btn:hover {
+  border: 1px solid var(--primary-clr) !important;
+  background-color: #fff !important;
+  color: var(--primary-clr) !important;
+}
+@media only screen and (max-width: 600px) {
+  .registration-fields {
+    width: 100% !important;
+  }
+  .registration-fields:nth-child(10),
+  .registration-fields:nth-child(3) {
+    width: 100% !important;
+  }
+  .registrationForm-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .fitness-submit-btn {
+    width: 100% !important;
+  }
+  .fitness {
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .page-hero-title {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .page-hero-title {
+    text-align: center;
+  }
+  .fitness {
+    padding: 10px 20px;
+  }
+  .page-hero {
+    background-position: center;
+  }
+  .registrationForm-section {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .registration-fields {
+    width: 43% !important;
+    outline: none !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .fitnesscard-section {
+    gap: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .registrationForm-section {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .fitnesscard-section {
+    gap: 20px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .registrationForm-section {
+    width: 55%;
+    margin: auto;
+    padding: 50px 0;
+  }
+  .fitnesscard-section {
+    gap: 30px;
+  }
+  .page-hero {
+    background-position: top !important;
+  }
+}
